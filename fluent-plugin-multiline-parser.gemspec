@@ -17,5 +17,5 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency "test-unit"
   gem.add_development_dependency "rake"
   gem.add_development_dependency "thread_safe"
-  gem.add_runtime_dependency "fluentd", "~> 0.12.0"
+  gem.add_runtime_dependency "fluentd", [">= 0.14.0", "< 2"]
 end
